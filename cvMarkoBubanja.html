@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV_Marko_Bubanja</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+        * {
+            font-family: 'Uchen', serif;
+        }
+        body {
+            width: 793px;
+            border: solid 1px black;
+            background-color: azure;
+        }
+        main {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            column-gap: 0.5rem;
+        }
+        section {
+            background-color: beige;
+            margin-left: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        aside {
+            background-color: lightseagreen;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        h4 {
+            margin: 0;
+        }
+        h2 {
+            margin-bottom: 0;
+        }
+        button {
+            background-color: rgb(235, 235, 132);
+            border: 1px solid yellow;
+            border-radius: 5px;
+        }
+        .sectionHeader {
+            text-align: center;
+        }
+        .containerFlex {
+            display: inline-flex;
+            align-items: center;
+        }
+        .chapter {
+            padding: 20px;
+        }
+        .containerSkill {
+            display: inline-block;
+            background-color: orange;
+            margin-bottom: 3px;
+            margin-right: 3px;
+            padding-left: 3px;
+            padding-right: 3px;
+            border: 1px solid black;
+            border-radius: 8px;
+        }
+        #document_header {
+            text-align: center;
+        }
+        #imgITAcademyLogo {
+            height: 3rem;
+            width: auto;
+            text-align: justify;
+        }
+        #containerPicture {
+            width: 5 rem;
+            height: auto;
+        }
+        #containerSkills {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="document_header"><i>Curiculum vitae</i></h1>
+    </header>
+    <main>
+    <section>
+        <div class="chapter">
+            <div class="sectionHeader">
+                <h2>Marko Bubanja</h3>
+                <h4> Junior Java Developer</h4>
+            </div>
+        </div>
+        <div class="chapter">
+            <h3>Personal information</h3>
+            <table>
+                <tr>
+                    <td>Date of birth: </td>
+                    <td>Februar 11<sup>th</sup> 1981</td>
+                </tr>
+                <tr>
+                    <td>Address: </td>
+                    <td>Jurija Gagarina 235, Novi Beograd</td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td>064 455 64 69</td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td><link rel="E-mail" href="bubanjamarko@yahoo.com"><u><i><b>bubanjamarko@yahoo.com</b></i></u></td>
+                </tr>
+            </table>
+        </div>
+        <div class="chapter">
+            <h3>Education</h3>
+            <div> 
+                <ul>
+                    <li><span>Java Development Program </span><span class="containerFlex"> - @ <img id="imgITAcademyLogo" src="https://programming.it-akademija.com/images/big_logo.png" alt="IT Academy"></span><a href="https://www.mediafire.com/file/u9ewfx5hje53881/Certificate_Java_Developet_IT_Academy.pdf/file" target="blank"><button>Download Certificate</button></a>
+                    <li>Previous education: Irelevant    <button id="buttonEducation">See anyway...</button>
+                        <div id="containerPreviousEducation" style="display: none">
+                            <ul style="list-style-type: circle">
+                                <li><span>Food Technology Engeneer</span><i> - Faculty of Agriculture, Belgrade University - </i><button id="buttonHideEducation">Hide</button></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="chapter">
+            <h3>Working Experience</h3>
+            <div> 
+                <ul>
+                    <li><span>Without working experience in IT industry</span></li>
+                    <li>Previous experience: Irelevant    <button id="buttonExperience">See anyway...</button>
+                        <div id="containerPreviousExperience" style="display: none">
+                            <ul>
+                                <li><span>Quality Manager</span><i> - Herba doo, Belgrade</i>, 13 years</li>
+                                <li><span>Quality Assurance Engeneer</span><i> - Iceberg Salat Center, Belgrade</i>, 1 year</li>
+                                <li><span>Process Engeneer</span><i> - Victoria Oil, Sid</i>, 1 year <button id="buttonHideExperience">Hide</button></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="chapter">
+            <h3>Courses</h3>
+            <div> 
+                <ul>
+                    <li>
+                        <span>Java - OOP</span><i> - Code With Mosh - </i><a href="https://www.mediafire.com/file/aoqk0x15d7zd5jj/certificate-of-completion-for-ultimate-java-part-2-object-oriented-programming.pdf/file" target="blank"><button>Download Certificate</button></a>
+                    </li>
+                    <li>
+                        <span>Compleet SQL Mastery</span><i> - Code With Mosh - </i><a href="https://www.mediafire.com/file/3vlci95sk2suklf/certificate-of-completion-for-complete-sql-mastery.pdf/file" target="blank"><button>Download Certificate</button></a>
+                    </li>
+                    <li>
+                        <span>Data Structures & Algorithms _ part 1</span><i> - Code With Mosh - </i><a href="https://www.mediafire.com/file/s92ezd0ya2d7a49/certificate-of-completion-for-the-ultimate-data-structures-algorithms-part-1.pdf/file" target="blank"><button>Download Certificate</button></a>
+                    </li>
+                    <li>
+                        <span>Java - Advance</span><i> - Code With Mosh - </i><a href="https://www.mediafire.com/file/96jbj8n9wpilt00/certificate-of-completion-for-ultimate-java-part-3-advanced-topics.pdf/file" target="blank"><button>Download Certificate</button></a>
+                    </li>
+                    <li>
+                        <span>Design Paterns _ part 1</span><i> - Code With Mosh - </i><a href="https://www.mediafire.com/file/zhzgwc01sxomxwj/the-ultimate-design-pattern-series.pdf/file" target="blank"><button>Download Certificate</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <aside>
+        <div class="chapter">
+            <h3>My Photo</h3>
+            <div> 
+                <span id="containerPicture"><img src="https://media-exp1.licdn.com/dms/image/C4D03AQEipWgPnqBRrQ/profile-displayphoto-shrink_100_100/0/1659866649106?e=1665619200&v=beta&t=ON9MVQneDl3NeWRtIa987lIjc_uL2Og9N7PAz8G-GEM" alt="Profile picture" width="150px" height="auto"></span>
+            </div>
+        </div>
+        <div class="chapter">
+            <h3>Programing Skills</h3>
+            <div id="containerSkills"> 
+                <span class="containerSkill">OOP</span>
+                <span class="containerSkill">Java</span>
+                <span class="containerSkill">HTML</span>
+                <span class="containerSkill">CSS</span>
+                <span class="containerSkill">JavaScript</span>
+                <span class="containerSkill">SQL</span>
+                <span class="containerSkill">Maven</span>
+                <span class="containerSkill">Hybernate</span>   
+                <span class="containerSkill">Spring</span>
+                <span class="containerSkill">Ajax</span>
+                <span class="containerSkill">Rest</span>
+                <span class="containerSkill">JSON</span>
+                <span class="containerSkill">XML</span>
+            </div>
+        </div>
+        <div class="chapter">
+            <h3>Other Skills</h3>
+            <div> 
+                <ul style="list-style-type: circle">
+                    <li>Driver licence: B category</li>
+                    <li>English language: B2</li>
+                    <li>German language: A1</li>
+                </ul>
+            </div>
+        </div>
+        
+    </aside>
+    </main>  
+    <script>
+        const buttonEducation = document.querySelector("#buttonEducation")
+        const buttonHideEducation = document.querySelector("#buttonHideEducation")
+        const containerPreviousEducation = document.querySelector("#containerPreviousEducation")
+        buttonEducation.addEventListener("click", () => {
+            containerPreviousEducation.style.display = "block"
+        });
+        buttonHideEducation.addEventListener("click", () => {
+            containerPreviousEducation.style.display = "none"
+        });
+        const buttonExperience = document.querySelector("#buttonExperience")
+        const containerPreviousExperience = document.querySelector("#containerPreviousExperience")
+        const buttonHideExperience = document.querySelector("#buttonHideExperience")
+        buttonExperience.addEventListener("click", () => {
+            containerPreviousExperience.style.display = "block"
+        });
+        buttonHideExperience.addEventListener("click", () => {
+            containerPreviousExperience.style.display = "none"
+        });
+    </script>
+</body>
+</html>
